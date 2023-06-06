@@ -1,0 +1,1930 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+
+
+/* .header{
+    height: 150px;
+    width: 1920px;
+    background-color:aquamarine;
+}
+
+.header img{
+    height: 130px;
+    border-radius: 300px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+#naam{
+    text-align: center;
+    padding: 25px;
+    margin: 25px;
+    color: red;
+    z-index: 100px;
+}
+
+.nav{
+    display: flex;
+    margin-top: 10px;
+} */
+
+
+header{
+    width: 100vw;
+    height: 100px;
+    border-bottom: solid 10px rgba(16, 16, 16, 0.1);
+    font-family: 'Poppins';
+    background-color: aquamarine;
+}
+
+header .inner{
+    width: 1600px; 
+    height: 100%;
+    /* display: block; */
+    margin: 0 auto; /*when there's margin on either left or right, auto will divide it equally on both sides . 
+                        A logical way to center align horizontally. Alternatively u can use text-align: center;*/
+}
+
+header .logo{
+    display: table;
+    height: 100%;
+    float: left; ------------------------------------------------
+}
+
+header .logo div{ ------------------------------------------------
+    /* height: 100%; */
+    /* display: table-cell; */
+    /* vertical-align: middle; */
+}
+
+header .logo img{
+    height: 100px;
+    /* margin-top: 5px; Optical alignment of the logo */
+    border-radius: 200px;
+}
+
+header .name h1{
+    text-align: center;
+    color: darkslategrey;
+    /* text-shadow: ; */
+    padding: 25px;
+    /* margin-left: 250px; */
+    /* border:azure 3px; */
+}
+
+header nav{
+    float: right;
+    height: 100%;
+    
+}
+
+header nav li{
+    display: table;
+    height: 100%;
+    float: left; /*----------------------------------------------- */
+    margin-right: 30px;
+}
+
+header nav li:last-of-type{
+    margin-right: 0;
+}
+
+header nav span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header nav a{
+    color: #101010;
+}
+
+header nav .button{
+    background-color: #1ab26b; /* This HEX is the color of the button */
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+header nav .button:hover{
+    filter: brightness(1.30);
+}
+
+
+
+
+
+#bgimg{
+    /* background-size: cover; */
+    /* width: 1920px; */
+    /* height: 1000px; */
+    backdrop-filter: blur(50px);
+    height: 100%;
+    width: 100.9%;
+    filter: blur(4px);
+}
+
+h2{
+    position: absolute;
+    top: 30%;
+    left: 78%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:aquamarine;
+}
+
+#form{
+    position: absolute;
+    top: 35%;
+    left: 74%;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 250px;
+    font-size: 20px;
+    border: 2px solid aquamarine;
+    box-shadow:10px 10px 15px black;
+    color: aquamarine;
+}
+
+#name{
+    width: 227px;
+    border-radius: 7px;
+    height: 25px;
+    padding: 5px;
+    margin: 5px 5px;
+    background-color:cornsilk;
+}
+
+#check{
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+#mail{
+    width: 227px;
+    border-radius: 7px;
+    height: 25px;
+    padding: 5px;
+    margin: 5px 5px;
+    background-color:cornsilk;
+}
+
+#age{
+    width: 227px;
+    border-radius: 7px;
+    height: 25px;
+    padding: 5px;
+    margin: 5px 5px;
+    background-color:cornsilk;
+}
+
+#mem{
+    width: 238px;
+    border-radius: 7px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px 5px;
+    background-color:cornsilk;
+}
+
+#train{
+    width: 238px;
+    border-radius: 7px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px 5px;
+    background-color:cornsilk;
+}
+
+#submit{
+    width: 150px;
+    border-radius: 7px;
+    height: 25px;
+    padding: 5px;
+    margin: 5px 5px;
+    background-color: #1ab26b;
+    margin-left: 50px;
+    margin-top: 10px;
+    color: #FFF;
+}
+
+#vid{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    width: auto;
+    height: auto;
+    /* margin: 50px 50px;
+    padding: 50px 50px; */
+    border-radius: 20px;
+}
+
+#wtrain{
+    position: absolute;
+    height: 300px;
+    width: 30%;
+    top: 90%;
+    left: 2%;
+    border-radius: 20px;
+}
+
+#hflag{
+    position: absolute;
+    height: 300px;
+    width: 30%;
+    top: 90%;
+    left: 35%;
+    border-radius: 20px;
+}
+
+#zumba{
+    position: absolute;
+    height: 300px;
+    width: 30%;
+    top: 90%;
+    right: 2%;
+    border-radius: 20px;
+}
+
+#wt{
+    position: absolute;
+    top: 85%;
+    left: 13%;
+    font-family:'Poppins';
+    color:rgb(127, 209, 182);
+    font-size: x-large;
+}
+
+#cal{
+    position: absolute;
+    top: 85%;
+    left: 45%;
+    font-family: 'Poppins';;
+    color:rgb(127, 209, 182);
+    font-size: x-large;
+}
+
+#zum{
+    position: absolute;
+    top: 85%;
+    left: 80%;
+    font-family: 'Poppins';;
+    color:rgb(127, 209, 182);
+    font-size: x-large;
+}
+
+/* .programs:hover img{
+    filter: brightness(1.10);
+} */
+
+/* #zoomin{
+    overflow: hidden;
+} */
+
+#zoomin img{
+    transition: transform 1s;
+}
+
+#zoomin:hover img{
+    transform: scale(1.1);
+}
+
+a:hover{
+    color:#FFF;
+}
+
+/* footer{
+    width: 100vw;
+    height: 300px;
+    border-bottom: solid 10px rgba(16, 16, 16, 0.1);
+    font-family: 'Poppins';
+    background-color:#1ab26b;
+    /* border-top: solid 10px burlywood; 
+    font-family: 'Poppins';
+    display: flex    
+}
+
+.foot div{
+    margin: 30px;
+    /* display: flex; 
+    position: absolute;
+    text-align: center;
+}
+
+.col1{
+    left: 10%;
+}
+
+.col2{
+    left: 40%;
+    display: block;
+}
+
+.col3{
+    right: 10%;
+}
+
+footer div h5{
+    padding: 10px;
+    padding-bottom: 30px;
+    letter-spacing: 2px;
+    font-size: large;
+}
+
+.col1 a{
+    /* display: block; 
+    margin: 0.1px;
+    /* padding: 0.01px; 
+}
+
+#email{
+    width: 300px;
+    text-align: center;
+    /* padding-top: 50px; 
+    border-radius: 7px;
+    height: 25px;
+    padding: 5px;
+    margin: 5px 5px;
+    background-color:white;
+
+}
+
+/* #butt{
+    width: 100px;
+    height: 20px;
+    padding: 20px;
+} 
+
+.links a{
+    margin: 10px;
+    padding: 10px;
+}*/
+
+.footer{
+    width: 100vw;
+    height: 250px;
+    border-bottom: solid 10px rgba(16, 16, 16, 0.1);
+    font-family: 'Poppins';
+    background-color:#1ab26b;
+    display: flex;
+    justify-content: center; 
+    /* margin: 0 auto; */
+    
+}
+
+.footer h5{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+#footmail{
+    height: 40px;
+    width: 450px;
+    border-radius: 30px;
+    text-align: center;
+    border: none;
+    outline: none;
+    margin-bottom: 2rem;
+}
+
+#footsubmit{
+    height: 30px;
+    width: 100px;
+    margin-left: 11rem;
+    border-radius: 20px;
+    border: none;
+    color: #FFF;
+    background-color: black;
+}
+
+.col1{
+    text-align: center;
+    margin-right: 400px;
+}
+
+.col2{
+    margin-right: 280px;
+}
+
+/* .programs{
+    margin-bottom: 50px;
+} */
+
+
+/* ----------------------------------------------------------------------------------------------------------- */
+
+
+@media (min-width:375px) and (max-width: 667px){
+    
+    .header{
+        height: 100px;
+        width: 375px;
+        background-color:aquamarine;
+        border-bottom: 10px solid rgba(16, 16, 16, 0.1);
+    }
+    
+    .header img{
+        height: 90px;
+        border-radius: 300px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    header .name h1{
+        text-align: left;
+        color: darkslategrey;
+        /* text-shadow: ; */
+        padding: 25px;
+        margin-left: 100px;
+        /* border:azure 3px; */
+    }
+
+    header nav{
+        float: right;
+        height: 100%;
+        display: none;
+    }
+
+    #vid{
+        position: absolute;
+        top: 19%;
+        left: 4.5%;
+        width: auto;
+        height: 193px;
+        /* margin: 50px 50px;
+        padding: 50px 50px; */
+        border-radius: 20px;
+    }
+
+    #bgimg{
+        /* background-size: cover; */
+        /* width: 1920px; */
+        height: 1450px;
+        backdrop-filter: blur(50px);
+        /* height: 100%; */
+        width: 100%;
+        filter: blur(4px);
+    }
+
+    h2{
+        position: absolute;
+        top: 50%;
+        left: 36%;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color:aquamarine;
+    }
+
+    #form{
+        position: absolute;
+        top: 55%;
+        left: 12%;
+        padding: 15px;
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        width: 250px;
+        /* height: 200px; */
+        font-size: 20px;
+        border: 2px solid aquamarine;
+        box-shadow:10px 10px 15px black;
+        color: aquamarine;
+    }
+
+    #wtrain{
+        position: absolute;
+        height: 200px;
+        width: 90%;
+        top: 115%;
+        left: 4%;
+        border-radius: 20px;
+    }
+    
+    #hflag{
+        position: absolute;
+        height: 200px;
+        width: 90%;
+        top: 155%;
+        left: 4%;
+        border-radius: 20px;
+    }
+    
+    #zumba{
+        position: absolute;
+        height: 200px;
+        width: 82%;
+        top: 196%;
+        left: 8%;
+        border-radius: 20px;
+    }
+    
+    #wt{
+        position: absolute;
+        top: 110%;
+        left: 23%;
+        font-family:'Poppins';
+        color:rgb(127, 209, 182);
+        font-size: x-large;
+    }
+    
+    #cal{
+        position: absolute;
+        top: 150%;
+        left: 25%;
+        font-family: 'Poppins';;
+        color:rgb(127, 209, 182);
+        font-size: x-large;
+    }
+    
+    #zum{
+        position: absolute;
+        top: 190%;
+        left: 35%;
+        font-family: 'Poppins';;
+        color:rgb(127, 209, 182);
+        font-size: x-large;
+    }
+    
+    .footer{
+        width: 100vw;
+        height: 570px;
+        border-bottom: solid 10px rgba(16, 16, 16, 0.1);
+        font-family: 'Poppins';
+        background-color:#1ab26b;
+        display: flex;
+        justify-content: center;
+        /* margin: 0 auto; */
+        
+    }
+
+    .col1{
+        position: absolute;
+        /* text-align: center; */
+        margin-right: 40px;
+        left: 25%;
+        /* top: 30%; */
+        padding: 170px 20px;
+    }
+    
+    .col2{
+        position: absolute;
+        padding-left: 270px;
+        /* left: 2%; */
+    }
+
+    .col3{
+        position: absolute;
+        /* margin-left: 20px; */
+        padding: 370px 0px 20px;
+    }
+
+    #footmail{
+        height: 40px;
+        width: 300px;
+        border-radius: 30px;
+        text-align: center;
+        border: none;
+        outline: none;
+        margin-bottom: 1.5rem;
+    }
+
+    #footsubmit{
+        height: 30px;
+        width: 100px;
+        margin-left: 6.3rem;
+        border-radius: 20px;
+        border: none;
+        color: #FFF;
+        background-color: black;
+    }
+    
+}
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+
+@media (min-width:414px) and (max-width: 896px){
+    
+    .header{
+        height: 100px;
+        width: 200px;
+        background-color:aquamarine;
+        border-bottom: 10px solid rgba(16, 16, 16, 0.1);
+    }
+    
+    .header img{
+        height: 90px;
+        border-radius: 300px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    header .name h1{
+        text-align: left;
+        color: darkslategrey;
+        /* text-shadow: ; */
+        padding: 25px;
+        margin-left: 100px;
+        /* border:azure 3px; */
+    }
+
+    header nav{
+        float: right;
+        height: 100%;
+        display: none;
+    }
+
+    #vid{
+        position: absolute;
+        top: 15%;
+        left: 9%;
+        width: auto;
+        height: 193px;
+        /* margin: 50px 50px;
+        padding: 50px 50px; */
+        border-radius: 20px;
+    }
+
+    #bgimg{
+        /* background-size: cover; */
+        /* width: 1920px; */
+        height: 1450px;
+        backdrop-filter: blur(50px);
+        /* height: 100%; */
+        width: 100%;
+        filter: blur(4px);
+    }
+
+    h2{
+        position: absolute;
+        top: 40%;
+        left: 36%;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color:aquamarine;
+    }
+
+    #form{
+        position: absolute;
+        top: 45%;
+        left: 16%;
+        padding: 15px;
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        width: 250px;
+        /* height: 200px; */
+        font-size: 20px;
+        border: 2px solid aquamarine;
+        box-shadow:10px 10px 15px black;
+        color: aquamarine;
+    }
+
+    #wtrain{
+        position: absolute;
+        height: 200px;
+        width: 90%;
+        top: 90%;
+        left: 4%;
+        border-radius: 20px;
+    }
+    
+    #hflag{
+        position: absolute;
+        height: 200px;
+        width: 90%;
+        top: 120%;
+        left: 4%;
+        border-radius: 20px;
+    }
+    
+    #zumba{
+        position: absolute;
+        height: 180px;
+        width: 82%;
+        top: 150%;
+        left: 8%;
+        border-radius: 20px;
+    }
+    
+    #wt{
+        position: absolute;
+        top: 85%;
+        left: 23%;
+        font-family:'Poppins';
+        color:rgb(127, 209, 182);
+        font-size: x-large;
+    }
+    
+    #cal{
+        position: absolute;
+        top: 115%;
+        left: 25%;
+        font-family: 'Poppins';;
+        color:rgb(127, 209, 182);
+        font-size: x-large;
+    }
+    
+    #zum{
+        position: absolute;
+        top: 145%;
+        left: 35%;
+        font-family: 'Poppins';;
+        color:rgb(127, 209, 182);
+        font-size: x-large;
+    }
+    
+    .footer{
+        width: 100vw;
+        height: 570px;
+        border-bottom: solid 10px rgba(16, 16, 16, 0.1);
+        font-family: 'Poppins';
+        background-color:#1ab26b;
+        display: flex;
+        justify-content: center;
+        /* margin: 0 auto; */
+        
+    }
+
+    .col1{
+        position: absolute;
+        /* text-align: center; */
+        margin-right: 40px;
+        left: 29%;
+        /* top: 30%; */
+        padding: 170px 20px;
+    }
+    
+    .col2{
+        position: absolute;
+        padding-left: 270px;
+        /* left: 2%; */
+    }
+
+    .col3{
+        position: absolute;
+        /* margin-left: 20px; */
+        padding: 370px 0px 20px;
+    }
+
+    #footmail{
+        height: 40px;
+        width: 300px;
+        border-radius: 30px;
+        text-align: center;
+        border: none;
+        outline: none;
+        margin-bottom: 1.5rem;
+    }
+
+    #footsubmit{
+        height: 30px;
+        width: 100px;
+        margin-left: 6.3rem;
+        border-radius: 20px;
+        border: none;
+        color: #FFF;
+        background-color: black;
+    }
+    
+}
+
+/* -----12pro--------------------------------------------------------------------------------------------------------------- */
+
+@media (min-width:390px) and (max-width: 844px){
+    
+    .header{
+        height: 100px;
+        width: 200px;
+        background-color:aquamarine;
+        border-bottom: 10px solid rgba(16, 16, 16, 0.1);
+    }
+    
+    .header img{
+        height: 90px;
+        border-radius: 300px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    header .name h1{
+        text-align: left;
+        color: darkslategrey;
+        /* text-shadow: ; */
+        padding: 25px;
+        margin-left: 100px;
+        /* border:azure 3px; */
+    }
+
+    header nav{
+        float: right;
+        height: 100%;
+        display: none;
+    }
+
+    #vid{
+        position: absolute;
+        top: 15%;
+        left: 6.5%;
+        width: auto;
+        height: 193px;
+        /* margin: 50px 50px;
+        padding: 50px 50px; */
+        border-radius: 20px;
+    }
+
+    #bgimg{
+        /* background-size: cover; */
+        /* width: 1920px; */
+        height: 1450px;
+        backdrop-filter: blur(50px);
+        /* height: 100%; */
+        width: 100%;
+        filter: blur(4px);
+    }
+
+    h2{
+        position: absolute;
+        top: 40%;
+        left: 36%;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color:aquamarine;
+    }
+
+    #form{
+        position: absolute;
+        top: 45%;
+        left: 14%;
+        padding: 15px;
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        width: 250px;
+        /* height: 200px; */
+        font-size: 20px;
+        border: 2px solid aquamarine;
+        box-shadow:10px 10px 15px black;
+        color: aquamarine;
+    }
+
+    #wtrain{
+        position: absolute;
+        height: 200px;
+        width: 90%;
+        top: 90%;
+        left: 4%;
+        border-radius: 20px;
+    }
+    
+    #hflag{
+        position: absolute;
+        height: 200px;
+        width: 90%;
+        top: 120%;
+        left: 4%;
+        border-radius: 20px;
+    }
+    
+    #zumba{
+        position: absolute;
+        height: 180px;
+        width: 82%;
+        top: 150%;
+        left: 8%;
+        border-radius: 20px;
+    }
+    
+    #wt{
+        position: absolute;
+        top: 85%;
+        left: 23%;
+        font-family:'Poppins';
+        color:rgb(127, 209, 182);
+        font-size: x-large;
+    }
+    
+    #cal{
+        position: absolute;
+        top: 115%;
+        left: 25%;
+        font-family: 'Poppins';;
+        color:rgb(127, 209, 182);
+        font-size: x-large;
+    }
+    
+    #zum{
+        position: absolute;
+        top: 145%;
+        left: 35%;
+        font-family: 'Poppins';;
+        color:rgb(127, 209, 182);
+        font-size: x-large;
+    }
+    
+    .footer{
+        width: 100vw;
+        height: 570px;
+        border-bottom: solid 10px rgba(16, 16, 16, 0.1);
+        font-family: 'Poppins';
+        background-color:#1ab26b;
+        display: flex;
+        justify-content: center;
+        /* margin: 0 auto; */
+        
+    }
+
+    .col1{
+        position: absolute;
+        /* text-align: center; */
+        margin-right: 40px;
+        left: 29%;
+        /* top: 30%; */
+        padding: 170px 20px;
+    }
+    
+    .col2{
+        position: absolute;
+        padding-left: 270px;
+        /* left: 2%; */
+    }
+
+    .col3{
+        position: absolute;
+        /* margin-left: 20px; */
+        padding: 370px 0px 20px;
+    }
+
+    #footmail{
+        height: 40px;
+        width: 300px;
+        border-radius: 30px;
+        text-align: center;
+        border: none;
+        outline: none;
+        margin-bottom: 1.5rem;
+    }
+
+    #footsubmit{
+        height: 30px;
+        width: 100px;
+        margin-left: 6.3rem;
+        border-radius: 20px;
+        border: none;
+        color: #FFF;
+        background-color: black;
+    }
+    
+}
+
+
+/* --1100 to 1400------------------------------------------------------------------------------------------------------------------ */
+
+@media (min-width:1100px) and (max-width: 1400px){
+    
+    .header{
+        height: 100px;
+        width: 220px;
+        background-color:aquamarine;
+        border-bottom: 10px solid rgba(16, 16, 16, 0.1);
+    }
+    
+    .header img{
+        height: 90px;
+        border-radius: 300px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    header .name h1{
+        text-align: left;
+        color: darkslategrey;
+        /* text-shadow: ; */
+        padding: 25px;
+        margin-left: 550px;
+        /* border:azure 3px; */
+    }
+
+    header nav{
+        float: right;
+        height: 100%;
+        margin-right: 300px;
+        display: none;
+    }
+
+    #vid{
+        position: absolute;
+        top: 20%;
+        left: 6%;
+        width: auto;
+        height: 393px;
+        /* margin: 50px 50px;
+        padding: 50px 50px; */
+        border-radius: 20px;
+    }
+
+    #bgimg{
+        /* background-size: cover; */
+        /* width: 1920px; */
+        height: 850px;
+        backdrop-filter: blur(50px);
+        /* height: 100%; */
+        width: 100%;
+        filter: blur(4px);
+    }
+
+    h2{
+        position: absolute;
+        top: 20%;
+        left: 76%;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color:aquamarine;
+    }
+
+    #form{
+        position: absolute;
+        top: 25%;
+        left: 70%;
+        padding: 15px;
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        width: 250px;
+        /* height: 200px; */
+        font-size: 20px;
+        border: 2px solid aquamarine;
+        box-shadow:10px 10px 15px black;
+        color: aquamarine;
+    }
+
+    #wtrain{
+        position: absolute;
+        height: 200px;
+        width: 30%;
+        top: 75%;
+        left: 4%;
+        border-radius: 20px;
+    }
+    
+    #hflag{
+        position: absolute;
+        height: 200px;
+        width: 30%;
+        top: 75%;
+        left: 35.5%;
+        border-radius: 20px;
+    }
+    
+    #zumba{
+        position: absolute;
+        height: 200px;
+        width: 30%;
+        top: 75%;
+        left: 67%;
+        border-radius: 20px;
+    }
+    
+    #wt{
+        position: absolute;
+        top: 70%;
+        left: 12%;
+        font-family:'Poppins';
+        color:rgb(127, 209, 182);
+        font-size: x-large;
+    }
+    
+    #cal{
+        position: absolute;
+        top: 70%;
+        left: 43%;
+        font-family: 'Poppins';;
+        color:rgb(127, 209, 182);
+        font-size: x-large;
+    }
+    
+    #zum{
+        position: absolute;
+        top: 70%;
+        left: 78%;
+        font-family: 'Poppins';;
+        color:rgb(127, 209, 182);
+        font-size: x-large;
+    }
+    
+    .footer{
+        width: 100vw;
+        height: 230px;
+        border-bottom: solid 10px rgba(16, 16, 16, 0.1);
+        font-family: 'Poppins';
+        background-color:#1ab26b;
+        display: flex;
+        justify-content: center;
+        /* margin: 0 auto; */
+        
+    }
+
+    .col1{
+        position: absolute;
+        /* text-align: center; */
+        margin-right: 40px;
+        left: 9%;
+        /* top: 30%; */
+        /* padding: 170px 20px; */
+    }
+    
+    .col2{
+        position: absolute;
+        padding-left: 270px;
+        /* left: 2%; */
+    }
+
+    .col3{
+        position: absolute;
+        margin-left: 900px;
+        /* margin-left: 20px; */
+        /* padding: 370px 0px 20px; */
+    }
+
+    #footmail{
+        height: 40px;
+        width: 300px;
+        border-radius: 30px;
+        text-align: center;
+        border: none;
+        outline: none;
+        margin-bottom: 1.5rem;
+    }
+
+    #footsubmit{
+        height: 30px;
+        width: 100px;
+        margin-left: 6.3rem;
+        border-radius: 20px;
+        border: none;
+        color: #FFF;
+        background-color: black;
+    }
+    
+}
+
+
+
+/* --900 to 1100------------------------------------------------------------------------------------------------------------------ */
+
+@media (min-width:900px) and (max-width: 1100px){
+    
+    .header{
+        height: 100px;
+        width: 220px;
+        background-color:aquamarine;
+        border-bottom: 10px solid rgba(16, 16, 16, 0.1);
+    }
+    
+    .header img{
+        height: 90px;
+        border-radius: 300px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    header .name h1{
+        text-align: left;
+        color: darkslategrey;
+        /* text-shadow: ; */
+        padding: 25px;
+        margin-left: 360px;
+        /* border:azure 3px; */
+    }
+
+    header nav{
+        float: right;
+        height: 100%;
+        margin-right: 300px;
+        display: none;
+    }
+
+    #vid{
+        position: absolute;
+        top: 27%;
+        left: 6%;
+        width: auto;
+        height: 300px;
+        /* margin: 50px 50px;
+        padding: 50px 50px; */
+        border-radius: 20px;
+    }
+
+    #bgimg{
+        /* background-size: cover; */
+        /* width: 1920px; */
+        height: 850px;
+        backdrop-filter: blur(50px);
+        /* height: 100%; */
+        width: 100%;
+        filter: blur(4px);
+    }
+
+    h2{
+        position: absolute;
+        top: 20%;
+        left: 73%;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color:aquamarine;
+    }
+
+    #form{
+        position: absolute;
+        top: 25%;
+        left: 65%;
+        padding: 15px;
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        width: 250px;
+        /* height: 200px; */
+        font-size: 20px;
+        border: 2px solid aquamarine;
+        box-shadow:10px 10px 15px black;
+        color: aquamarine;
+    }
+
+    #wtrain{
+        position: absolute;
+        height: 200px;
+        width: 30%;
+        top: 75%;
+        left: 4%;
+        border-radius: 20px;
+    }
+    
+    #hflag{
+        position: absolute;
+        height: 200px;
+        width: 30%;
+        top: 75%;
+        left: 35.5%;
+        border-radius: 20px;
+    }
+    
+    #zumba{
+        position: absolute;
+        height: 200px;
+        width: 30%;
+        top: 75%;
+        left: 67%;
+        border-radius: 20px;
+    }
+    
+    #wt{
+        position: absolute;
+        top: 70%;
+        left: 12%;
+        font-family:'Poppins';
+        color:rgb(127, 209, 182);
+        font-size: x-large;
+    }
+    
+    #cal{
+        position: absolute;
+        top: 70%;
+        left: 43%;
+        font-family: 'Poppins';;
+        color:rgb(127, 209, 182);
+        font-size: x-large;
+    }
+    
+    #zum{
+        position: absolute;
+        top: 70%;
+        left: 78%;
+        font-family: 'Poppins';;
+        color:rgb(127, 209, 182);
+        font-size: x-large;
+    }
+    
+    .footer{
+        width: 100vw;
+        height: 230px;
+        border-bottom: solid 10px rgba(16, 16, 16, 0.1);
+        font-family: 'Poppins';
+        background-color:#1ab26b;
+        display: flex;
+        justify-content: center;
+        /* margin: 0 auto; */
+        
+    }
+
+    .col1{
+        position: absolute;
+        /* text-align: center; */
+        margin-right: 40px;
+        left: 9%;
+        /* top: 30%; */
+        /* padding: 170px 20px; */
+    }
+    
+    .col2{
+        position: absolute;
+        padding-left: 270px;
+        /* left: 2%; */
+    }
+
+    .col3{
+        position: absolute;
+        margin-left: 700px;
+        /* margin-left: 20px; */
+        /* padding: 370px 0px 20px; */
+    }
+
+    #footmail{
+        height: 40px;
+        width: 300px;
+        border-radius: 30px;
+        text-align: center;
+        border: none;
+        outline: none;
+        margin-bottom: 1.5rem;
+    }
+
+    #footsubmit{
+        height: 30px;
+        width: 100px;
+        margin-left: 6.3rem;
+        border-radius: 20px;
+        border: none;
+        color: #FFF;
+        background-color: black;
+    }
+    
+}
+
+
+/* --800 to 900------------------------------------------------------------------------------------------------------------------ */
+
+@media (min-width:800px) and (max-width: 900px){
+    
+    .header{
+        height: 100px;
+        width: 220px;
+        background-color:aquamarine;
+        border-bottom: 10px solid rgba(16, 16, 16, 0.1);
+    }
+    
+    .header img{
+        height: 90px;
+        border-radius: 300px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    header .name h1{
+        text-align: left;
+        color: darkslategrey;
+        /* text-shadow: ; */
+        padding: 25px;
+        margin-left: 360px;
+        /* border:azure 3px; */
+    }
+
+    header nav{
+        float: right;
+        height: 100%;
+        margin-right: 300px;
+        display: none;
+    }
+
+    #vid{
+        position: absolute;
+        top: 30%;
+        left: 2%;
+        width: auto;
+        height: 250px;
+        /* margin: 50px 50px;
+        padding: 50px 50px; */
+        border-radius: 20px;
+    }
+
+    #bgimg{
+        /* background-size: cover; */
+        /* width: 1920px; */
+        height: 850px;
+        backdrop-filter: blur(50px);
+        /* height: 100%; */
+        width: 100%;
+        filter: blur(4px);
+    }
+
+    h2{
+        position: absolute;
+        top: 20%;
+        left: 71%;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color:aquamarine;
+    }
+
+    #form{
+        position: absolute;
+        top: 25%;
+        left: 61%;
+        padding: 15px;
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        width: 250px;
+        /* height: 200px; */
+        font-size: 20px;
+        border: 2px solid aquamarine;
+        box-shadow:10px 10px 15px black;
+        color: aquamarine;
+    }
+
+    #wtrain{
+        position: absolute;
+        height: 200px;
+        width: 30%;
+        top: 75%;
+        left: 4%;
+        border-radius: 20px;
+    }
+    
+    #hflag{
+        position: absolute;
+        height: 200px;
+        width: 30%;
+        top: 75%;
+        left: 35.5%;
+        border-radius: 20px;
+    }
+    
+    #zumba{
+        position: absolute;
+        height: 200px;
+        width: 30%;
+        top: 75%;
+        left: 67%;
+        border-radius: 20px;
+    }
+    
+    #wt{
+        position: absolute;
+        top: 70%;
+        left: 12%;
+        font-family:'Poppins';
+        color:rgb(127, 209, 182);
+        font-size: x-large;
+    }
+    
+    #cal{
+        position: absolute;
+        top: 70%;
+        left: 43%;
+        font-family: 'Poppins';;
+        color:rgb(127, 209, 182);
+        font-size: x-large;
+    }
+    
+    #zum{
+        position: absolute;
+        top: 70%;
+        left: 78%;
+        font-family: 'Poppins';;
+        color:rgb(127, 209, 182);
+        font-size: x-large;
+    }
+    
+    .footer{
+        width: 100vw;
+        height: 230px;
+        border-bottom: solid 10px rgba(16, 16, 16, 0.1);
+        font-family: 'Poppins';
+        background-color:#1ab26b;
+        display: flex;
+        justify-content: center;
+        /* margin: 0 auto; */
+        
+    }
+
+    .col1{
+        position: absolute;
+        /* text-align: center; */
+        margin-right: 40px;
+        left: 9%;
+        top: 90.5%;
+        /* padding: 170px 20px; */
+    }
+    
+    .col2{
+        position: absolute;
+        padding-left: 270px;
+        /* left: 2%; */
+    }
+
+    .col3{
+        position: absolute;
+        margin-left: 600px;
+        top: 68%;
+        /* margin-left: 20px; */
+        /* padding: 370px 0px 20px; */
+    }
+
+    #footmail{
+        height: 40px;
+        width: 300px;
+        border-radius: 30px;
+        text-align: center;
+        border: none;
+        outline: none;
+        margin-bottom: 1.5rem;
+    }
+
+    #footsubmit{
+        height: 30px;
+        width: 100px;
+        margin-left: 6.3rem;
+        border-radius: 20px;
+        border: none;
+        color: #FFF;
+        background-color: black;
+    }
+    
+}
+
+
+/* --600 to 800------------------------------------------------------------------------------------------------------------------ */
+
+@media (min-width:600px) and (max-width: 800px){
+    
+    .header{
+        height: 100px;
+        width: 220px;
+        background-color:aquamarine;
+        border-bottom: 10px solid rgba(16, 16, 16, 0.1);
+    }
+    
+    .header img{
+        height: 90px;
+        border-radius: 300px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    header .name h1{
+        text-align: left;
+        color: darkslategrey;
+        /* text-shadow: ; */
+        padding: 25px;
+        margin-left: 220px;
+        /* border:azure 3px; */
+    }
+
+    header nav{
+        float: right;
+        height: 100%;
+        margin-right: 300px;
+        display: none;
+    }
+
+    #vid{
+        position: absolute;
+        top: 15%;
+        left: 20%;
+        width: auto;
+        height: 250px;
+        /* margin: 50px 50px;
+        padding: 50px 50px; */
+        border-radius: 20px;
+    }
+
+    #bgimg{
+        /* background-size: cover; */
+        /* width: 1920px; */
+        height: 1000px;
+        backdrop-filter: blur(50px);
+        /* height: 100%; */
+        width: 100%;
+        filter: blur(4px);
+    }
+
+    h2{
+        position: absolute;
+        top: 47%;
+        left: 40%;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color:aquamarine;
+    }
+
+    #form{
+        position: absolute;
+        top: 51%;
+        left: 31%;
+        padding: 15px;
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        width: 250px;
+        /* height: 200px; */
+        font-size: 20px;
+        border: 2px solid aquamarine;
+        box-shadow:10px 10px 15px black;
+        color: aquamarine;
+    }
+
+    #wtrain{
+        position: absolute;
+        height: 200px;
+        width: 30%;
+        top: 100%;
+        left: 4%;
+        border-radius: 20px;
+    }
+    
+    #hflag{
+        position: absolute;
+        height: 200px;
+        width: 30%;
+        top: 100%;
+        left: 35.5%;
+        border-radius: 20px;
+    }
+    
+    #zumba{
+        position: absolute;
+        height: 200px;
+        width: 30%;
+        top: 100%;
+        left: 67%;
+        border-radius: 20px;
+    }
+    
+    #wt{
+        position: absolute;
+        top: 95%;
+        left: 2%;
+        font-family:'Poppins';
+        color:rgb(127, 209, 182);
+        font-size: x-large;
+    }
+    
+    #cal{
+        position: absolute;
+        top: 95%;
+        left: 38%;
+        font-family: 'Poppins';;
+        color:rgb(127, 209, 182);
+        font-size: x-large;
+    }
+    
+    #zum{
+        position: absolute;
+        top: 95%;
+        left: 78%;
+        font-family: 'Poppins';;
+        color:rgb(127, 209, 182);
+        font-size: x-large;
+    }
+    
+    .footer{
+        width: 100vw;
+        height: 230px;
+        border-bottom: solid 10px rgba(16, 16, 16, 0.1);
+        font-family: 'Poppins';
+        background-color:#1ab26b;
+        display: flex;
+        justify-content: center;
+        /* margin: 0 auto; */
+        
+    }
+
+    .col1{
+        position: absolute;
+        /* text-align: center; */
+        margin-right: 40px;
+        left: 2%;
+        top: 107.5%;
+        /* padding: 170px 20px; */
+    }
+    
+    .col2{
+        position: absolute;
+        padding-left: 270px;
+        /* left: 2%; */
+    }
+
+    .col3{
+        position: absolute;
+        margin-left: 470px;
+        top: 85%;
+        /* margin-left: 20px; */
+        /* padding: 370px 0px 20px; */
+    }
+
+    #footmail{
+        height: 40px;
+        width: 300px;
+        border-radius: 30px;
+        text-align: center;
+        border: none;
+        outline: none;
+        margin-bottom: 1.5rem;
+    }
+
+    #footsubmit{
+        height: 30px;
+        width: 100px;
+        margin-left: 6.3rem;
+        border-radius: 20px;
+        border: none;
+        color: #FFF;
+        background-color: black;
+    }
+    
+}
+
+
+/* --rotate 667 to 375------------------------------------------------------------------------------------------------------------------ */
+
+@media (min-width:667px) and (max-width: 375px){
+    
+    .header{
+        height: 100px;
+        width: 220px;
+        background-color:aquamarine;
+        border-bottom: 10px solid rgba(16, 16, 16, 0.1);
+    }
+    
+    .header img{
+        height: 90px;
+        border-radius: 300px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    header .name h1{
+        text-align: left;
+        color: darkslategrey;
+        /* text-shadow: ; */
+        padding: 25px;
+        margin-left: 220px;
+        /* border:azure 3px; */
+    }
+
+    header nav{
+        float: right;
+        height: 100%;
+        margin-right: 300px;
+        display: none;
+    }
+
+    #vid{
+        position: absolute;
+        top: 15%;
+        left: 20%;
+        width: auto;
+        height: 250px;
+        /* margin: 50px 50px;
+        padding: 50px 50px; */
+        border-radius: 20px;
+    }
+
+    #bgimg{
+        /* background-size: cover; */
+        /* width: 1920px; */
+        height: 1000px;
+        backdrop-filter: blur(50px);
+        /* height: 100%; */
+        width: 100%;
+        filter: blur(4px);
+    }
+
+    h2{
+        position: absolute;
+        top: 47%;
+        left: 40%;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color:aquamarine;
+    }
+
+    #form{
+        position: absolute;
+        top: 51%;
+        left: 31%;
+        padding: 15px;
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        width: 250px;
+        /* height: 200px; */
+        font-size: 20px;
+        border: 2px solid aquamarine;
+        box-shadow:10px 10px 15px black;
+        color: aquamarine;
+    }
+
+    #wtrain{
+        position: absolute;
+        height: 200px;
+        width: 30%;
+        top: 100%;
+        left: 4%;
+        border-radius: 20px;
+    }
+    
+    #hflag{
+        position: absolute;
+        height: 200px;
+        width: 30%;
+        top: 100%;
+        left: 35.5%;
+        border-radius: 20px;
+    }
+    
+    #zumba{
+        position: absolute;
+        height: 200px;
+        width: 30%;
+        top: 100%;
+        left: 67%;
+        border-radius: 20px;
+    }
+    
+    #wt{
+        position: absolute;
+        top: 95%;
+        left: 2%;
+        font-family:'Poppins';
+        color:rgb(127, 209, 182);
+        font-size: x-large;
+    }
+    
+    #cal{
+        position: absolute;
+        top: 95%;
+        left: 38%;
+        font-family: 'Poppins';;
+        color:rgb(127, 209, 182);
+        font-size: x-large;
+    }
+    
+    #zum{
+        position: absolute;
+        top: 95%;
+        left: 78%;
+        font-family: 'Poppins';;
+        color:rgb(127, 209, 182);
+        font-size: x-large;
+    }
+    
+    .footer{
+        width: 100vw;
+        height: 230px;
+        border-bottom: solid 10px rgba(16, 16, 16, 0.1);
+        font-family: 'Poppins';
+        background-color:#1ab26b;
+        display: flex;
+        justify-content: center;
+        /* margin: 0 auto; */
+        
+    }
+
+    .col1{
+        position: absolute;
+        /* text-align: center; */
+        margin-right: 40px;
+        left: 2%;
+        top: 107.5%;
+        /* padding: 170px 20px; */
+    }
+    
+    .col2{
+        position: absolute;
+        padding-left: 270px;
+        /* left: 2%; */
+    }
+
+    .col3{
+        position: absolute;
+        margin-left: 470px;
+        top: 95%;
+        /* margin-left: 20px; */
+        /* padding: 370px 0px 20px; */
+    }
+
+    #footmail{
+        height: 40px;
+        width: 300px;
+        border-radius: 30px;
+        text-align: center;
+        border: none;
+        outline: none;
+        margin-bottom: 1.5rem;
+    }
+
+    #footsubmit{
+        height: 30px;
+        width: 100px;
+        margin-left: 6.3rem;
+        border-radius: 20px;
+        border: none;
+        color: #FFF;
+        background-color: black;
+    }
+    
+}
